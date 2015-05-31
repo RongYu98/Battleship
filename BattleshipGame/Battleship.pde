@@ -2,6 +2,7 @@ class battleship{
  PImage img;
  float x=0;
  float y=200;
+ Bullet[] rounds = new Bullet[1];
  
  void setup(){
    img = loadImage("Battleship1.png"); //300-100
@@ -23,5 +24,6 @@ class battleship{
      x+=5;
    }
  }
+ 
 } 
   

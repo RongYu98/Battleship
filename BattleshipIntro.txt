@@ -1,0 +1,34 @@
+Battleship
+
+Game Outline:
+-The player will control a battleship and seek to destroy the enemy battleship.
+
+To-Do List:
+I. Make the Battleship Class:
+    A. Object moved using "WASD."
+II. Make the Bullet Class:
+    A. Object moves by update in the Battleship Class.
+    B. Will move in a certain direction at a certain speed, all dictated mathematically.
+    C. Picture will turn to explosion upon contact with the end.
+III. Make AI Battleship:
+    A. Will move away from mouse.
+    B. Will shoot at player's Battleship.
+    C. Will store all coordinates as global coordinates.
+IV. Health Bar:
+    A. Health bar will be a red rectangle for player, and a blue for the enemy.
+    B. Health bar will be a seperate class that has an integer parameter, the maximum.
+    C. The bar will shrink based off of the percentage of health left.
+V. Shop:
+    A. Will be a seperate function called by a statement from draw.
+    B. Can increase the firerate of the battleship.
+        1. Make the firerate function have a Battleship Global variable.
+    C. Can increase health of the battleship.
+    D. Can increase the speed of the battleship.
+        1. Make the keyPressed function have a Battleship Global variable.
+    E. Can increase the speed of the bullets.
+        1. Make the moving function have a Battleship Global variable.
+VI. Levels:
+    A. Each level's battleship will have an improvement.
+    B. The improvements will be layered, i.e. Battleship A will be used, then added on and reused.
+VII. Save:
+    A. To be determined later on.

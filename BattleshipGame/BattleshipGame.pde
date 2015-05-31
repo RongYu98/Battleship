@@ -23,7 +23,7 @@ void draw() {
   }*/
    void keyPressed(){
    if (key == 119){ //w
-     ycor-=.5;
+     ycor-=5;
    } else if (key == 97){ // a
      xcor-=5;
    } else if (key == 115){ //s
