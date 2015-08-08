@@ -2,7 +2,7 @@ class Bullet{
  PImage img;
  float x,y,v;
 
- Bullet(float CX, float CY,float NX. float NY, float NV){
+void Bullet(float CX, float CY,float NX, float NY, float NV){
    x=NX;
    y=NY;
    v=NV;
@@ -13,6 +13,6 @@ class Bullet{
  void update(){
     //
     
-    
+ }
   
 }
