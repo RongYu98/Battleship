@@ -1,5 +1,4 @@
-5-9-15:
-5:00pm to 5:30pm, picked out a battleship, drew the battleship, the battleship is able to move towards mouse
-
+8/8/15:
+Battleship now moves based on velocity.
 
 draw line for bullet path
