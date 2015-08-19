@@ -2,18 +2,25 @@ PImage img;
 Ship Player;
 //Bullet[] Bullets = new Bullet[1];
 Bullet B;
+EShipLv1 Enemy;
 
 void setup() {
-  size(1800, 1000);
+  size(900, 500);
   Player = new Ship(200,300);
   B = new Bullet(0,0,0,0);
   //img = loadImage("HELLHOUND.png"); //200-100
   //img = loadImage("Battleship1.png"); //300-100
+  Enemy = new EShipLv1(450,400);
 }
 void draw() {
   background(255);
   Player.update();
   B.update();
+  //if (Enemy.visible){
+    Enemy.update();
+  //} else { 
+   // Enemy.RanSpawn();
+  //}
 }
 void keyPressed(){
  if (key == 'w'){ //w

@@ -2,7 +2,7 @@ class Bullet{
 
  PImage img;
  float x,y,xv,yv;
- boolean visible=true;
+ boolean visible;
  
  Bullet(float X, float Y,float XV, float YV){
    x=X;
